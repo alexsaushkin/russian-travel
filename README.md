@@ -12,4 +12,4 @@
 
 **Ссылка на проект**
 
-* [Ссылка на проект в Github pages](https://github.com/alexsaushkin/russian-travel/index.html )
+* [Ссылка на проект в Github pages](https://alexsaushkin.github.io/russian-travel/index.html)
