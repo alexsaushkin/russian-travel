@@ -31,6 +31,6 @@
 @media screen and (max-width: 568px) {
     .lead__subtitle {
         padding: 0 16px;
-        margin: 0 auto 16px;
+        margin: 0 auto 40px;
     }
 }
