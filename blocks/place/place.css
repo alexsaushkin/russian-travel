@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .place {
         grid: 600px auto / 1fr;
         grid-template-rows: 1fr;
