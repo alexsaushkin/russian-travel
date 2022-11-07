@@ -1,0 +1,39 @@
+.place {
+    font-family: 'Inter', Arial, sans-serif;
+    color: #fff;
+    display: grid;
+    grid-template-columns: minmax(440px, 460px) 1fr;
+    grid-template-rows: repeat(2, min-content);
+    row-gap: 48px;
+    column-gap: 40px;
+    padding-top: 80px;
+}
+
+.place:first-child {
+    padding-top: 0;
+}
+
+@media screen and (max-width: 1140px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .place {
+        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+        padding-top: 72px;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .place {
+        grid: 600px auto / 1fr;
+        grid-template-rows: 1fr;
+        padding-left: 0;
+        padding-top: 50px;
+        row-gap: 32px;
+    }
+}
