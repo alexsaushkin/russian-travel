@@ -5,15 +5,10 @@
     color: #fff;
     text-decoration: none;
     transition: opacity 0.3s ease-in;
-    margin-right: 18px;
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
-}
-
-.header__lang-link:last-child {
-    margin-right: 0;
 }
 
 @media screen and (max-width: 568px) {
